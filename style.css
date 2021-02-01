@@ -6,7 +6,21 @@ body{
 }
 a:link{
     text-decoration: none!important;
-  }
+}
+p {
+    padding-top: 15px;
+}
+h5 {
+    padding-top: 30px;
+}
+img {
+    width: 100%;
+    max-height: auto;
+}
+.rounded-circle {
+    width: 200px;
+    height: 200px;
+}
 .main-body {
     padding: 15px;
 }
