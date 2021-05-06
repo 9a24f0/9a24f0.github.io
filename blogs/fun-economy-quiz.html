@@ -9,11 +9,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     
     <!-- For LaTeX rendering -->
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" charset="utf-8" 
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+         https://vincenttam.github.io/javascripts/MathJaxLocal.js">
+    </script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-      </script>
-    <title>Welcome!</title>
+    </script>
+    <title>Finance quiz</title>
 </head>
 <body>
     <div class="container-xxl">
@@ -63,7 +66,7 @@
                     </p>
                     <em><b>Notes:</b>
                         The problem is nowhere near realistic situation since no inflation is involved in calculation.</em> 
-                    <h5 class="d-flex mb-3"><b>Let's start (seriously) do the math it, shall we?</b></h5>
+                    <h5 class="d-flex mb-3"><b>Let's start (seriously) do the math, shall we?</b></h5>
                     <p>
                         Let $s$ be our annually saving amount. We start at the end of age 30 and with the interest rate of 8%
                         per year. We could compute each year's money till we retired
@@ -110,7 +113,7 @@
                     <p>
                         Now let's calculate the saving remains from the retirement
                         <a href="https://www.youtube.com/watch?v=LWLZ_MrPplk" class="text-info">till the day I die</a>
-                        Since after we retired we should immediately withdraw moneys, by the end of
+                        Since we should immediately withdraw moneys after we retired, by the end of
                         age 61, we should have $$R = (s\times\sum_{i=0}^{30}(1.08^i) - 20)\times1.08
                         \\= s\times\sum_{i=0}^{31}(1.08^i) - 20\times1.08$$
                     </p>
