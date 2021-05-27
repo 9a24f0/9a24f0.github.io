@@ -2,7 +2,6 @@ body{
     margin-top:20px;
     color: #1a202c;
     text-align: left;
-    background-color: #e2e8f0;    
 }
 a:link{
     text-decoration: none!important;
@@ -16,6 +15,16 @@ h5 {
 img {
     width: 100%;
     max-height: auto;
+}
+pre{
+    white-space: nowrap;
+    background-color: #eee;
+    display: block;
+    padding: 20px;
+}
+code {
+    background-color: #eee;
+    padding: 2px;
 }
 .rounded-circle {
     width: 200px;
