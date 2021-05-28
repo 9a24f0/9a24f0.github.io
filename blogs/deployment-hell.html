@@ -63,10 +63,18 @@
                     </pre>
                     <p>
                         Hmmm, let's run <code>odbcinst -j</code> to see what happened:
-                        
                     </p>
                     <pre>
-                        <code></code>
+                        <code style="white-space: pre;">
+unixODBC 2.3.6
+DRIVERS............: /etc/odbcinst.ini
+SYSTEM DATA SOURCES: /etc/odbc.ini
+FILE DATA SOURCES..: /etc/ODBCDataSources
+USER DATA SOURCES..: /app/.odbc.ini
+SQLULEN Size.......: 8
+SQLLEN Size........: 8
+SQLSETPOSIROW Size.: 8
+                        </code>
                     </pre>
                     <p>
                         When I checked <code>/etc/</code>, there was no <code>odbcinst.ini</code>. Surely the
