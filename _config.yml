@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/avatar.png # change with your own avatar
 
 # URL settings
-url: "https://9a24f0.github.io/" #
+url: "https://9a24f0.github.io" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
