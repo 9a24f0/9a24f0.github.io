@@ -1,0 +1,88 @@
+# Site settings
+title: Blog de mingnho # site title
+description: # site description
+lang: en-US # default lang
+timezone: Asia/Bangkok # set your timezone
+repo: https://github.com/9a24f0/9a24f0.github.io # site repo [optional]
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: Minh Ngo # author name
+  bio: >- # tell to the world
+    Personal cozy space to share thoughts of my daily life.
+    Mostly it's my thoughts on <a class="tag-item" href="/tags/#tech">tech</a> problems,
+    others will be tagged with <a class="tag-item" href="/tags/#thought">thought</a> 
+  username: username # general username
+  github: 9a24f0 # github username
+  twitter: twitter_username # twitter username
+  facebook: facebook_username # facebook username
+  email: xminh.ngo.00@gmail.com # email adress
+  avatar: /assets/img/avatar.png # change with your own avatar
+
+# URL settings
+url: "https://9a24f0.github.io/" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
