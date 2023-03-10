@@ -5,11 +5,6 @@ tag:
   - tech
 ---
 
-# Deployment hell, with proprietary software
----
-
-*May 26, 2021*
-
 ### Deploying on Heroku is such an easy task with tutorials are you joking?
 
 Well, technically yes, but that's the case when you are using a non-proprietary database.
